@@ -1,15 +1,32 @@
-include <stdio.h>
+/*
+  Experiment no 1:
+  Task 1:WAP to print basic details on screen and format it using escape sequence.
+
+  Name:Jamadar Bashir Ahmed Atikurrehman
+  Roll no:10
+  UIN: 241S010
+  Branch: ECS
+  */
+
+#include <stdio.h>
+
 int main()
 {
-    int num;
-    printf("\t\t\t ***Even odd finder*** \n\n\n");
-    printf("Enter an number: ");
-    scanf("%d", &num);
-
-    if (num % 2 == 0)
-        printf("%d is even.", num);
-    else
-        printf("%d is odd.", num);
+    printf("Name = Jamadar Bashir Ahmed Atikurrehman \n");
+    printf("Age = 19 \n");
+    printf("UIN = 241S010 \n");
+    printf("Div: E\n");
+    printf("Branch = ECS \n");
 
     return 0;
 }
+
+/*OUTPUT
+
+Name = Jamadar Bashir Ahmed Atikurrehman
+Age = 19
+UIN = 241S010
+Div: E
+Branch = ECS
+
+*/
